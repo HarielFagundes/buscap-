@@ -3,31 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buscapé</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
     <header>
         <div>
-            <h1>
-                        <img src="./BUSCA PÉ PORRA.webp" width="100px">
-            <h1>
-            <button class="carrinhobtn">Abrir</button>
-            <div>
-       
+            <h1><img src="./213.webp" width="100px" style="width: 67px;"></h1>
+            <button class="carrrinhobtn" style="
+            border: navajowhite;
+            background: transparent;
+        "><img src="./17701.jpeg"  width="100px" style="width: 34px;"><div class="carrinho-status"><span id="contador">0</span></button>
+        </div>
+        
     </header>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <ul class="produtos">
+        <div class="product">             
+            <img src="./imag iphone.PNG" width="100px" style="width: 20%;"alt="iPhone">
+            <div class="product-info">               
+            <h3>iPhone 16 Pro Max Apple (256GB) Titânio Deserto, Tela de 6,9", 5G e Câmera de 48MP</h3>
+            <div class="price">12x R$ 916,13<br>ou R$ 9.599,00</div> 
+            </div><button class="add-btn" onclick="addToCart('iPhone 16 Pro Max Apple (256GB) Titânio Deserto, Tela de 6,9, 5G e Câmera de 48MP', 'R$ 916,13', 'R$ 9.599,00')">Adicionar ao carrinho</button> 
+            </div>
+        
+            <div class="product">
+            <img src="./Tv smart 32.PNG" width="100px" style="width: 25%;" alt="TV smart 32">
+            <div class="product-info">
+            <h3>Smart TV 32" LG HD 32LR600B Processador α5 Ger6 AI Alexa integrado LG Channels webOS 23 compatível com Controle Smart Magic</h3>
+            <div class="price">10x R$ 109,90 sem juros<br> ou R$ 1.099,00 á vista</div>
+            </div><button class="add-btn" onclick="addToCart('Smart TV 32 LG HD 32LR600B Processador α5 Ger6 AI Alexa integrado LG Channels webOS 23 compatível com Controle Smart Magic', ' R$ 109,90', 'R$ 1.099,00')">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="product">
+            <img src="./jbl.PNG" width="100px" style="width: 25%;" alt="JBL">
+            <div class="product-info">
+            <h3>JBL Caixa de Som, Boombox 3, Bluetooth, À Prova De água e Poeira - Preto</h3>
+            <div class="price">12x de R$ 210,84 com juros<br> ou R$ 2.259,00 á vista</div>
+            </div><button class="add-btn" onclick="addToCart('JBL Caixa de Som, Boombox 3, Bluetooth, À Prova De água e Poeira - Preto', 'R$ 210,84', 'R$ 2.259,00')">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="product">
+            <img src="./ps5.PNG" width="100px" style="width: 25%;" alt="PS% Slim">
+            <div class="product-info">
+            <h3>PlayStation®5 Slim Edição Digital com 2 Jogos</h3>
+            <div class="price">R$ 3.655,55 em até 10x de R$ 365,60 sem juros<br> ou R$ 3.399,66 á vista</div>
+            </div><button class="add-btn" onclick="addToCart('PlayStation®5 Slim Edição Digital com 2 Jogos', 'R$ 365,60', 'R$ 3.399,66')">Adicionar ao carrinho</button>
+            </div>
+
     </ul>
     <script type="module" src="./script.js"></script>
 </body>

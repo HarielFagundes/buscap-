@@ -1,11 +1,11 @@
-* {
+** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 header {
     padding: 24px;
-    background-color: yellow;
+    background-color: rgb(253, 212, 0, 1);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -19,11 +19,12 @@ header div {
 ul {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 27px; 
+    background-color: #9f98981f;
     padding: 24px;
 }
 li {
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(255, 255, 255);
     padding: 24px;
 }
 .cartul {
@@ -34,7 +35,7 @@ li {
     /* bottom: 0px; */
     padding: 0;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(253, 212, 0, 1);
     max-height: 400px;
     overflow: auto;
     /* height: 300px; */
@@ -42,5 +43,76 @@ li {
     list-style: none;
 }
 .cartul li {
-    background-color: blue;
+    background-color: rgba(253, 223, 0, 0.852);
 }
+.product {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product img {
+    width: 100px;
+  }
+  
+  .product-info {
+    flex: 1;
+    padding: 0 15px;
+  }
+  
+  .price {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .add-btn {
+    background: #00a34d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .produto-container {
+    display: flex;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .produto {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: rgba(252, 9, 9, 0.712);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .carrinho-status {
+    font-size: 18px;
+    font-weight: bold;
+  }
